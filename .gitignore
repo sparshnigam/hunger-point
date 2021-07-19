@@ -4,3 +4,5 @@
 mylogs.log
 # ignore a with specific extension
 .cpp
+# ignore all the files from specific folder
+ignore/
