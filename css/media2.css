@@ -1,0 +1,78 @@
+@media only screen and (max-width:576px){
+    .logo{
+        font-size: 1.3rem;
+        top: -0.94rem;
+    }
+    nav{
+        padding: 2rem 0;
+    }
+    .ham{
+        top: 1.75rem;
+    }
+    .ham .bar:nth-child(1),
+    .ham .bar:nth-child(2),
+    .ham .bar:nth-child(3){
+        width: 30px;
+        height: 4px;
+    }
+    li a{
+        font-size: 1.386rem;
+    }
+    #home .slider .slide .caption h1{
+        font-size: 2rem;
+    }
+    #home .slider .slide .caption p{
+        font-size: 1rem;
+    }
+    /* Home Section */
+
+    .slider .slide1 .caption{
+        bottom: -10rem;
+    }
+
+    /* About Section */
+
+    .banner{
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .banner .textBox{
+        top: 0px;
+        font-size: 0.9rem;
+    }
+    .banner .textBox h2{
+        font-size: 2rem;
+    }
+    .banner .textBox p{
+        font-size: 1rem;
+        margin-bottom: 15px;
+    }
+    .banner .textBox a{
+        padding: .5rem;
+    }
+    .banner .videobox {
+        height: 15rem;
+        bottom: 0rem;
+    }
+
+    /* Contact Section */
+
+    form button{
+        font-size: 0.9rem;
+    }
+    
+    #contact-box .form-cont{
+        position: relative;
+        bottom: 0rem;
+        width: 90%;
+        height: 100%;
+    }
+    .form-group{
+        position: relative;
+        bottom: 0px;
+    }
+    #contact-box input, #contact-box textarea{
+        padding: 0.2rem;
+    }
+    
+}
