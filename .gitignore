@@ -2,3 +2,5 @@
 /myLogs.logs
 # ignore these files from all directories
 mylogs.log
+# ignore a with specific extension
+.cpp
