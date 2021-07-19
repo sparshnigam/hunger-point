@@ -1,2 +1,4 @@
-myLogs.logs
+# ignore these files from the root directory
+/myLogs.logs
+# ignore these files from all directories
 mylogs.log
